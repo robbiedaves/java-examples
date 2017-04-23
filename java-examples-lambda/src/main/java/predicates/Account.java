@@ -1,4 +1,4 @@
-package com.robbiedaves.javaexamples.lambda.predicates;
+package predicates;
 
 
 public class Account {

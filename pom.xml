@@ -22,8 +22,8 @@
     </properties>
 
     <modules>
-        <module>lambda</module>
         <module>collections</module>
+        <module>java-examples-lambda</module>
     </modules>
 
     <dependencyManagement>

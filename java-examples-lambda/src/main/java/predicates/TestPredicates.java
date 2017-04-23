@@ -1,4 +1,4 @@
-package com.robbiedaves.javaexamples.lambda.predicates;
+package predicates;
 
 /**
  * Created by Robin Davies on 23/04/2017.
