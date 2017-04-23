@@ -22,7 +22,6 @@
     </properties>
 
     <modules>
-        <module>collections</module>
         <module>java-examples-lambda</module>
     </modules>
 
