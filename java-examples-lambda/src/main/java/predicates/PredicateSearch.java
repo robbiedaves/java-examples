@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 public class PredicateSearch {
 
     public static void testPredicateSearch(String[] args) {
-        List<Animal> animals = new ArrayList<Animal>(); // List of animals
+        List<Animal> animals = new ArrayList<>(); // List of animals
         animals.add(new Animal("Fish", false, true));
         animals.add(new Animal("Kangaroo", true, false));
         animals.add(new Animal("Rabbit", true, false));

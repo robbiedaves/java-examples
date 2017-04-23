@@ -10,7 +10,7 @@ If we wanted to filter the collection, before we had lambda functions, we would 
 The Interface will have a single method called test(Animal a)...
 We can implement this interface, like we have done with CheckIfHopper.
 
-However, we can now use Lambda functions to implement the same functionallity without the need to create an interface.
+However, we can now use Lambda functions to implement the same functionality without the need to create an interface.
 ```java
 public class PredicateExample { 
     
