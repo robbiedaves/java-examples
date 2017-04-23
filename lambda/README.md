@@ -11,7 +11,7 @@ The Interface will have a single method called test(Animal a)...
 We can implement this interface, like we have done with CheckIfHopper.
 
 However, we can now use Lambda functions to implement the same functionallity without the need to create an interface.
-```
+```java
 printWithPredicate(List<Animal> animals, Predicate<Animal> checker)
 ...
             if (checker.test(animal)) {
