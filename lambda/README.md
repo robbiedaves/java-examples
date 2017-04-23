@@ -12,16 +12,17 @@ We can implement this interface, like we have done with CheckIfHopper.
 
 However, we can now use Lambda functions to implement the same functionallity without the need to create an interface.
 ```java
-printWithPredicate(List<Animal> animals, Predicate<Animal> checker)
+printWithPredicate(List<Animal> animals, Predicate<Animal> checker) {
 ...
             if (checker.test(animal)) {
                 System.out.println(animal + " ");
             }
+}
 ```
 
 ### Bank Example
 Here is another simple example of the use of Predicates to filter a list of accounts.
-```
+```java
 printAccounts(getAccounts(acc -> acc.getBalance() > 300),  "Accounts with balances > 300");
 
 public List<Account> getAccounts(Predicate<Account> filter) {...
