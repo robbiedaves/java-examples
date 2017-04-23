@@ -1,4 +1,4 @@
-package predicates;
+package com.robbiedaves.javaexamples.predicates;
 
 public class Animal {
 
